@@ -1,6 +1,4 @@
-![mahua](mahua-logo.jpg)
-
-
+![贝壳](mahua-logo.jpg)
 * Orc工具库
     * `GetImageCode` 图片验证码
         * 参数
@@ -22,7 +20,15 @@
         *  参数
         *    输入 InputFolder ：需要压缩的文件夹路径
         *    输出 OutputFile:   压缩文件保存路径
-
+        
+* 字符操作工具库
+     *  `RegexSubstring` 字符串截取
+        * 参数
+        *   输入 InputString :  需要处理的字符
+        *   输入 BeginString ： 开始截取的字符
+        *   输入 EndString   ： 结束截取的字符
+        *   输出 OutputCode  :  得到的字符
+      
 
 ##有问题反馈
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
