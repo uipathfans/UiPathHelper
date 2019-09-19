@@ -3,8 +3,8 @@
     * `GetImageCode` 图片验证码
         * 参数
         *   输入 ImagePath :  需要识别的图片路径
-        *   输入 Api_Key
-        *   输入 SECRET_KEY
+        *   输入 Api_Key   :  百度 apikey (不填用默认帐号)
+        *   输入 SECRET_KEY:  百度 secretkey (不填用默认帐号)
         *   输出 OutputCode : 识别出来的验证码
         *   输出 OutputJSON : 返回的JSON
         *   输出 OutputError：返回的执行状态
