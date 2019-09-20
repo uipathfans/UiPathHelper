@@ -26,7 +26,17 @@
        __参数__
         *    输入 InputFolder ：需要压缩的文件夹路径
         *    输出 OutputFile:   压缩文件保存路径
+
+ * 字符串操作工具库
+     *  `RegexSubstring` 字符串头尾截取
         
+        __参数__
+        *   输入 InputString :  输入的字符串
+        *   输入 BeginString ： 开始字符串
+        *   输入 EndString   ： 结束字符串
+        *   输出 OutputCode  :  截取的字符串
+
+
  * Web工具库
      *  `WebService` WebService访问工具
         
