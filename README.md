@@ -1,29 +1,56 @@
+![贝壳](mahua-logo.jpg)
+
+
+* Orc工具库
+    * `GetImageCode` 图片验证码
+        * 参数
+        *   输入 ImagePath :  需要识别的图片路径
+        *   输入 Api_Key   :  百度 apikey (不填用默认帐号)
+        *   输入 SECRET_KEY:  百度 secretkey (不填用默认帐号)
+        *   输出 OutputCode : 识别出来的验证码
+        *   输出 OutputJSON : 返回的JSON
+        *   输出 OutputError：返回的执行状态
+        
+* 解压缩工具库
+     * `unZipFile`解压文件
+        *  参数
+        *    输入 InputFile ：  zip文件路径
+        *    输入 OutputFolder：解压路径
+        *    输出 OutputMsg:    执行状态码
+        
+     * `ZipFile`压缩文件
+        *  参数
+        *    输入 InputFolder ：需要压缩的文件夹路径
+        *    输出 OutputFile:   压缩文件保存路径
+        
+* 字符操作工具库
+     *  `RegexSubstring` 字符串截取
+        * 参数
+        *   输入 InputString :  需要处理的字符
+        *   输入 BeginString ： 开始截取的字符
+        *   输入 EndString   ： 结束截取的字符
+        *   输出 OutputCode  :  得到的字符
+      
+
 
 
 ##有问题反馈
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
 
-* 邮件(dev.hubo#gmail.com, 把#换成@)
-* QQ: 287759234
-* weibo: [@草依山](http://weibo.com/ihubo)
-* twitter: [@ihubo](http://twitter.com/ihubo)
+* 邮件(uipathfans@163.com)
+* QQ: 1586826868
+* 微信: aliuge2000
 
-##捐助开发者
-在兴趣的驱动下,写一个`免费`的东西，有欣喜，也还有汗水，希望你喜欢我的作品，同时也能支持一下。
-当然，有钱捧个钱场（右上角的爱心标志，支持支付宝和PayPal捐助），没钱捧个人场，谢谢各位。
+##技术交流Q群
+* UiPath粉丝交流群 781374956
 
-##感激
-感谢以下的项目,排名不分先后
 
-* [mou](http://mouapp.com/) 
-* [ace](http://ace.ajax.org/)
-* [jquery](http://jquery.com)
 
 ##关于作者
 
 ```javascript
   var ihubo = {
-    nickName  : "草依山",
-    site : "http://jser.me"
+    nickName  : "贝壳",
+    site : "http://www.uipathfans.com"
   }
 ```
