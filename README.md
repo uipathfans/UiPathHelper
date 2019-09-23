@@ -46,9 +46,16 @@
         *   输入 Argument(Hashtable)   ： 参数 
         *   输出 OutputXml(XmlDocument)  :  得到的XML
         *   输出 Status(String)     :  得到的返回状态  (200成功   400失败)
+     
+* 常用工具库
+     *  `PinYinConverter` 中文转拼音
+        
+        __参数__
+        *   输入 InputString(String)    : 中文字符 
+        *   输出 GetFullString(String)  : 拼音字符
 
-  *  `InsertPicToExcel` 向Excel插入图片
-       
+     *  `InsertPicToExcel` 向Excel插入图片
+        
         __参数__
         *   输入 OpenFileName(String)      : 要插入的excel文件 
         *   输入 InputPicFileName(String)  : 插入的图片
@@ -57,14 +64,9 @@
         *   输入 Width(int)                : 插入图片长
         *   输入 Height(int)               : 插入图片高
 
-* 常用工具库
-     *  `PinYinConverter` 中文转拼音
         
-        __参数__
-        *   输入 InputString(String)    : 中文字符 
-        *   输出 GetFullString(String)  : 拼音字符
-
-
+        
+        
 ## 有问题反馈
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
 
