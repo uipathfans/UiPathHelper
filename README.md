@@ -55,17 +55,15 @@
         *   输入 InputString(String)    : 中文字符 
         *   输出 GetFullString(String)  : 拼音字符
 
-    ~~ 
-     *  `InsertPicToExcel` 向Excel插入图片 
+   ~~~*  `InsertPicToExcel` 向Excel插入图片 ~~~
         
-        __参数__
-        *   输入 OpenFileName(String)      : 要插入的excel文件 
-        *   输入 InputPicFileName(String)  : 插入的图片
-        *   输入 SaveFileName(String)      : 保存的文件名
-        *   输入 Range(String)             : 插入的位置
-        *   输入 Width(int)                : 插入图片长
-        *   输入 Height(int)               : 插入图片高
-     ~~
+     ~~~__参数__~~~
+     ~~~*   输入 OpenFileName(String)      : 要插入的excel文件~~~
+     ~~~*   输入 InputPicFileName(String)  : 插入的图片~~~
+     ~~~*   输入 SaveFileName(String)      : 保存的文件名~~~
+     ~~~*   输入 Range(String)             : 插入的位置~~~
+     ~~~*   输入 Width(int)                : 插入图片长~~~
+     ~~~*   输入 Height(int)               : 插入图片高~~~
 
 * Npoi工具库
      *  `InsertExcelPic` 向Eecel 插入图片
