@@ -65,8 +65,18 @@
         *   输入 Width(int)                : 插入图片长
         *   输入 Height(int)               : 插入图片高
 
-        
-        
+* Npoi工具库
+     *  `InsertExcelPic` 向Eecel 插入图片
+       
+        __参数__
+        *   输入 OpenFileName(String)      : 要插入的excel文件 
+        *   输入 InputPicFileName(String)  : 插入的图片
+        *   输入 SaveFileName(String)      : 保存的文件名
+        *   输入 SheetName(String)         : Sheet名称
+        *   输入 ColumnWidth(int)          : 图片长度(多少格)
+        *   输入 RowHeight(int)            : 图片高度(多少行)
+        *   输入 RowCount(int)             : 图片起始位置(第几行)
+        *   输入 ColumnCount(int)          : 图片起始位置(第几列)
         
 ## 有问题反馈
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
