@@ -55,7 +55,7 @@
         *   输入 InputString(String)    : 中文字符 
         *   输出 GetFullString(String)  : 拼音字符
 
-     *  `InsertPicToExcel` 向Excel插入图片
+    ~~ *  `InsertPicToExcel` 向Excel插入图片 ~~
         
         __参数__
         *   输入 OpenFileName(String)      : 要插入的excel文件 
