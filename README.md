@@ -83,14 +83,14 @@
         *   输入 RowCount(int)             : 图片起始位置(第几行)
         *   输入 ColumnCount(int)          : 图片起始位置(第几列)
         
- ```python
+ ```C#
 @ PicModel 对象
 List PicList = New List(of PicModel)
 PicModel PicObject1 = new PicModel(15,50,6,0,"医生简历","D:\医生简历.jpg"))
 PicModel PicObject2 = new PicModel(15,50,6,0,"医生简历","D:\医生简历.jpg"))
 PicList.Add(PicObject1);
 PicList.Add(PicObject2);
-```
+ ```
         
 ## 有问题反馈
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
